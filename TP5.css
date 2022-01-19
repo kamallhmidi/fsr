@@ -1,0 +1,84 @@
+/*Ex1 */
+table, th, td {
+  border: 1px solid black;
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+}
+
+th{background-color: #4CAF50;
+  color: white;}
+  
+td{
+    padding:20px;
+  height: 70px;
+  border-bottom: 1px solid;
+}
+/*Ex2 */
+div.stat{
+    border: 3px solid #73AD21;
+    top:50px;
+    left:40px;
+    position:static;
+    }    
+div.rel{
+    border: 3px solid #73AD21;
+    top:50px;
+    left:40px;
+    position:relative;
+    width:400px;
+    height:200px;
+    }    
+ div.absol{
+     border: 3px solid #73AD21;
+     top:60px;
+     right:0;
+     width:150px;
+     height:100px;
+     position:absolute;
+     }   
+ div.fix{
+     border: 3px solid #73AD21;
+      width:400px;
+     bottom:0;
+     right:0;
+     position:fixed;
+     }    
+     
+      
+ img{
+     width:200px;
+     height:200px;
+     margin-left:15px;
+     float:right;
+     }    
+ p{
+   clear:right;  
+     }  
+ .div1{
+     margin:10px;
+     float:left;
+     width:200px;
+     height:50px;
+     border:solid red;
+     }    
+ .div2{
+     border:solid green;
+     clear:left;
+     }   
+     
+ /*Ex3 */
+ div p{
+  background-color: orange;
+
+     }
+ div > p {
+  background-color: yellow;
+}
+ 
+ div + p {
+  background-color: orange;
+}
+             

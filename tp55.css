@@ -1,0 +1,90 @@
+/**exercice 1**/
+
+table,th,td{
+    border: 1px solid black ;
+ }  
+ table{
+     border-collapse:collapse;
+     width:50%;
+ }  
+ th{
+    background-color:blue;
+    color:white;
+ } 
+ td{
+     height: 40px;
+     padding: 20px;
+     border-bottom: 5px solid;
+ }
+ .class1{
+     list-style-type: decimal;
+ }
+}
+.class2{
+    list-style-type: circle;
+}
+}
+.class3{
+    list-style-type: upper-roman;
+}
+}
+.class4{
+    list-style-type: lower-roman;
+}
+ul{
+    margin:0px;
+    padding:0px;
+}
+/**exercice 2**/
+.stat{
+    border:2px solid green;
+    top: 50px;
+    left:40px;
+    position:static;
+    
+}
+.rel{
+    border:2px solid green;
+    top:50px;
+    left:40px;
+    width:400px;
+    height:200px;
+    position:relative;
+}
+.absol{
+    border:2px solid green;
+    top:60px;
+    right:0px;
+    width:200px;
+    height:100px;
+    position:absolute;
+}
+.fix{
+    border:2px solid green;
+    bottom:0px;
+    right:0px;
+    width:400px;
+    position:fixed;
+}
+img{
+    float: right;
+    width:150px;
+    height:200px;
+}
+.div{
+    border:3px solid red; 
+    float:left;
+}
+.div1{
+    border:3px solid grey;
+    clear:left;
+}
+ul,li{
+    display: block;
+}
+/**exercice 3**/
+ p{
+    background-color: orange;
+  
+       }
+  

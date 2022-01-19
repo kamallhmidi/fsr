@@ -1,0 +1,64 @@
+
+ 
+/**exercice 1 **/
+h1{
+    color:red; 
+    text-align:center;
+    text-decoration:underline;
+    text-shadow: 30px 5px brown;
+}
+#id1{
+    color:red; 
+    text-align:center; 
+}
+.class1{
+    color:red; 
+    text-align:center;
+}
+/**exercice 2**/
+p{
+    color:green;
+}
+p{
+    color:#00ff00;
+}
+p{
+    color:rgb(60, 179, 113);
+}
+.class2{
+    text-transform:uppercase;
+    line-height:3;
+}
+.times{
+    font-family: Times New Roman;
+    font-size: 15px;
+    }
+.arial{
+    font-family: Arial;
+    font-size: 15;
+    font-style: italic;
+    }
+    /**exercice 3**/
+ div{
+     background-color:red ;
+    opacity: 30;
+ }
+ body{   
+ background-image: url("txt.jpg");
+ background-repeat:repeat-x  repeat-y;
+ background-attachment: fixed;
+ background-position: 500px 200px;
+
+  }
+  /**exercice 3**/
+  .class2{
+    background-color:red;
+    opacity: 0.3;
+    border-style:solid;
+    border-width:medium;
+    border-color:red;
+    
+    margin:25px 50px 75px 100px;
+    padding:50px  30px 50px 90px;
+      }
+ 
